@@ -1,0 +1,40 @@
+body {
+	font-family: Baskerville, Plantin, Palatino, 'Palatino Linotype', Garamond, Georgia, 'Times New Roman', Times, serif;
+	background-image: url('/site_media/static/img/tile.png');
+	background-repeat: repeat;
+}
+
+h1 {
+	font-size: 85px;
+	margin: 50px 0 20px 0;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: normal;
+	color: #2D2C29;
+	text-align: right;
+}
+
+#bio {
+	font-style: italic;
+	color: #2D2C29;
+	font-size: 14px;
+
+}
+
+#link_list ul {
+	margin: 0;	
+	padding: 0;
+}
+
+#link_list li {
+	list-style-type: none;
+	margin-left: 0;
+	text-align: right;
+
+}
+
+#link_list li a {
+	color: #5A5752;
+	text-decoration: none;
+	font-size: 40px;
+}
