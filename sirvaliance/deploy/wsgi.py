@@ -1,8 +1,9 @@
-import os
-import sys
+import os, sys
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'sirvaliance.settings'
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(__file__)), os.pardir, os.pardir)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(__file__)), os.pardir)))
 
-import django.core.handlers.wsgi
-application = django.core.handlers.wsgi.WSGIHandler()
+from django.core.handlers.wsgi import WSGIHandler
+os.environ["DJANGO_SETTINGS_MODULE"] = "sirvaliance.settings"
+application = WSGIHandler()
 
