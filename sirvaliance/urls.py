@@ -11,6 +11,8 @@ urlpatterns = patterns('',
 	url(r'^mobius', 'home.views.ob_mobius'),
 	url(r'^sir-valiance-quantico', 'home.views.ob_quantico'),
 	url(r'^a-fresh-start', 'home.views.ob_fresh'),
+	url(r'^robots.txt', 'home.views.robots'),
+	url(r'^four/', 'home.views.four'),
 
     # url(r'^sirvaliance/', include('sirvaliance.foo.urls')),
 
