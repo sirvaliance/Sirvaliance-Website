@@ -7,6 +7,11 @@ from django.conf.urls.defaults import patterns, include, url
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'home.views.index', name='home'),
+	url(r'^sir-valiance-start', 'home.views.ob_start'),
+	url(r'^mobius', 'home.views.ob_mobius'),
+	url(r'^sir-valiance-quantico', 'home.views.ob_quantico'),
+	url(r'^a-fresh-start', 'home.views.ob_fresh'),
+
     # url(r'^sirvaliance/', include('sirvaliance.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
