@@ -3,7 +3,9 @@ body {
 	background-image: url('/site_media/static/img/tile.png');
 	background-repeat: repeat;
 }
-
+a {
+	color: #E63F26;
+}
 h1 {
 	font-size: 85px;
 	margin: 50px 0 20px 0;
