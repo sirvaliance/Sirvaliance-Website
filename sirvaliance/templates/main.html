@@ -1,19 +1,47 @@
 {% extends "base.html" %}
 
+{% block head %}
+<script type="text/javascript">
+$(document).ready(function(){
+	$('li.menu_item').hover(function(){
+		$(this).prepend('<span class="arrow">&rArr;</span>');	
+
+	}, function (){
+		$(this).children('.arrow').remove();
+
+	});
+});
+
+</script>
+
+{% endblock %}
+
 {% block content %}
 <div class="grid_12">
 	<h1>Sir Valiance</h1>
 </div>
-<div id="bio" class="grid_6">
-	<p>Some text or bio information</p>
+<div class="grid_6 h_100">
 </div>
-<div id="link_list" class="grid_6">
+<div id="bio" class="grid_3">
+	<p>An anonymous programmer, hacker, musician, and artist.  Thanks to http://gondor.io for the hosting of the site.</p>
+</div>
+<div id="link_list" class="grid_3">
 	<ul>
-		<li><a href="http://blog.sirvaliance.com">Blog</a></li>
-		<li><a href="http://sirvaliance.bandcamp.com">Music</a></li>
-		<li><a href="http://github.com/sirvaliance/">Code</a></li>
-		<li><a href="mailto:sir@sirvaliance.com">Email</a></li>
-		<li><a href="">PGP Key</a></li>
+		<li class="menu_item">
+			<a target="_blank" href="http://blog.sirvaliance.com">Blog</a>
+		</li>
+		<li class="menu_item">
+			<a target="_blank" href="http://sirvaliance.bandcamp.com">Music</a>
+		</li>
+		<li class="menu_item">
+			<a target="_blank" href="http://github.com/sirvaliance/">Code</a>
+		</li>
+		<li class="menu_item">
+			<a href="mailto:sir@sirvaliance.com">Email</a>
+		</li>
+		<li class="menu_item">
+			<a target="_blank" href="{{ STATIC_URL }}files/gpg.asc">GPG Key</a>
+		</li>
 	</ul>
 
 </div>
