@@ -68,6 +68,9 @@ h1 {
 
 
 /* Mozilla App */
+#mozilla_main {
+    margin-top: 20px;
+}
 #portrait_box {
     background-color: #161614;
     filter: alpha(opacity=80);
@@ -122,6 +125,14 @@ h1 {
 	-moz-box-shadow: 0px 5px 15px #222;
 	-webkit-box-shadow: 0px 5px 15px #222;
 }
+.small_text_box {
+    background-color: #F3F0EB;
+	padding: 20px;
+    margin: 20px 0;
+	box-shadow: 0px 5px 15px #222;
+	-moz-box-shadow: 0px 5px 15px #222;
+	-webkit-box-shadow: 0px 5px 15px #222;
+}
 .headline_text {
     font-size: 2em;
     line-height: 1.25em;
@@ -132,4 +143,22 @@ h1 {
 
 #quote_wrapper {
     margin-top: 40px;
+}
+
+.img_float {
+    float: right;
+}
+
+.quote_text {
+    font-size: 30px;
+    color: #5A5752;
+    font-style: italic;
+}
+
+.quote_name {
+    text-align: center;
+}
+
+#closer_box {
+    margin-bottom: 150px;
 }
