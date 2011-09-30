@@ -162,3 +162,10 @@ h1 {
 #closer_box {
     margin-bottom: 150px;
 }
+
+.img_margin {
+    margin-top: 30px;
+}
+.img_margin_50 {
+    margin-top: 50px;
+}
