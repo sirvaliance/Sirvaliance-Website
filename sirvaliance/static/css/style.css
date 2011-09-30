@@ -21,6 +21,13 @@ h1 {
 	height: 100px;
 }
 
+.clear {
+    display: clear;
+}
+
+#main {
+    margin-top: 20px;
+}
 #bio {
 	font-style: italic;
 	color: #2D2C29;
@@ -56,4 +63,73 @@ h1 {
 	font-size: 18px;
 	color: #2D2C29;
 	padding: 0 10px;
+}
+
+
+
+/* Mozilla App */
+#portrait_box {
+    background-color: #161614;
+    filter: alpha(opacity=80);
+	opacity: 0.8;
+    padding:auto;
+    float: right;
+}
+#portrait_box p {
+    padding: 0 20px 20px 22px;
+    margin: 0;
+    color: #f5f5f5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+
+
+}
+#portrait_box img {
+    padding: 12px;
+}
+#mozilla_title {
+    margin: 0 0 10px 0;
+    text-align: left;
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: -5px;
+    text-shadow: 0 1px 0 white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-variant: normal;
+    font-weight: bold;
+
+}
+
+#title_text {
+    font-size: 2em;
+    color: #43413D;
+    line-height: 1.25em;
+    text-shadow: 0 1px 0 white;
+    text-align: left;
+
+}
+
+#title_text p {
+    margin-top: 0;
+}
+
+.main_text_box {
+    background-color: #F3F0EB;
+	padding: 20px;
+    margin: 20px 0;
+	box-shadow: 0px 5px 15px #222;
+	-moz-box-shadow: 0px 5px 15px #222;
+	-webkit-box-shadow: 0px 5px 15px #222;
+}
+.headline_text {
+    font-size: 2em;
+    line-height: 1.25em;
+    text-align: center;
+    font-style: italic;
+
+}
+
+#quote_wrapper {
+    margin-top: 40px;
 }

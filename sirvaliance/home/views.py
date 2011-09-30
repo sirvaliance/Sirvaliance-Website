@@ -5,6 +5,9 @@ from django.http import HttpResponse, HttpResponseRedirect
 def index(request):
     return render_to_response("main.html", 
 							  context_instance=RequestContext(request))
+def mozilla(request):
+    return render_to_response("mozilla.html", 
+							  context_instance=RequestContext(request))
 
 def ob_start(request):
 	return HttpResponseRedirect("http://blog.sirvaliance.com/sir-valiance-start")
