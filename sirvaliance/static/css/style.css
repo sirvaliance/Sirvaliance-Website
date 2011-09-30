@@ -17,6 +17,15 @@ h1 {
 	text-shadow: 1px 1px #E9E5DB, -1px -1px #444;
 }
 
+h2 {
+    font-size: 24px;
+    font-style: normal;
+	font-variant: small-caps;
+	font-weight: normal;
+	color: #2D2C29;
+
+}
+
 .h_100 {
 	height: 100px;
 }
